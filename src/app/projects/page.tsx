@@ -1,7 +1,9 @@
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <section>
-   {/* <a href="/" className="text-4xl font-bold mb-6 hover:text-blue-700 transition">portfolio</a> */}
+   {/* <Link href="/" className="text-4xl font-bold mb-6 hover:text-blue-700 transition">portfolio</Link> */}
       <h1 className="text-4xl font-bold mb-6">PROJECTS</h1>
       <div className="flex flex-col md:flex-row gap-8">
         {/* Project Card 1 */}
@@ -16,8 +18,8 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">AI-Assisted Development</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <a href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</a>
-            <a href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</a>
+            <Link href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</Link>
+            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
           </div>
         </div>
         {/* Project Card 2 */}
@@ -32,8 +34,8 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">Web</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <a href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</a>
-            <a href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</a>
+            <Link href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</Link>
+            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
           </div>
         </div>
         {/* Project Card 3 */}
@@ -48,7 +50,7 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">Backend</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <a href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</a>
+            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
           </div>
         </div>
       </div>
