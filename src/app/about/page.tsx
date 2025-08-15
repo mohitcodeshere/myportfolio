@@ -34,7 +34,7 @@ export default function About() {
         </div>
   <div className="flex flex-wrap gap-4 sm:gap-6 mb-6">
           <a href="mailto:mohit.k.1618@gmail.com" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition">CONTACT ME</a>
-          <a href="/media/MohitEDIResume.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</a>
+          <Link href="/media/MohitEDIResume.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</Link>
         </div>
   <div className="flex flex-wrap gap-3 sm:gap-4 mb-8">
           <a href="https://github.com/mohitcodeshere/" className="text-gray-700 hover:text-black transition" title="GitHub">
