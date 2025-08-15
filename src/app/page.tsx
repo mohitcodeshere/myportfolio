@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaCalendarAlt, FaFilePdf } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link";
 export default function About() {
   return (
   <section className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 px-4 sm:px-6 lg:px-8 w-full">
@@ -16,10 +17,10 @@ export default function About() {
         />
       </div>
     <div className="flex-1 w-full">
-      <a href="/" className="text-3xl sm:text-5xl font-extrabold mb-2 text-black text-black-700 transition block break-words">Mohit Kumar</a>
+  <Link href="/" className="text-3xl sm:text-5xl font-extrabold mb-2 text-black text-black-700 transition block break-words">Mohit Kumar</Link>
         <div className="flex flex-wrap items-center gap-2 text-gray-600 mb-2">
           <span className="text-base sm:text-lg">Co-Founder/CTO</span>
-          <a href="https://www.moroesports.com" className="text-base sm:text-lg hover:text-blue-600 font-small" target="_blank" rel="noopener">@MoroEsports</a>
+          <Link href="https://www.moroesports.com" className="text-base sm:text-lg hover:text-blue-600 font-small" target="_blank" rel="noopener">@MoroEsports</Link>
         </div>
   <p className="text-base sm:text-lg text-gray-700 mb-2">With a strong background in software, product, leadership, and product innovation.</p>
   <div className="flex flex-wrap items-center gap-2 text-gray-500 mb-4">
@@ -32,27 +33,27 @@ export default function About() {
           <span className="bg-gray-100 px-3 py-1 rounded text-sm font-medium">AI</span>
         </div>
   <div className="flex flex-wrap gap-4 sm:gap-6 mb-6">
-          <a href="mailto:mohit.k.1618@gmail.com" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition">CONTACT ME</a>
-          <a href="/media/MohitEDIResume.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-purple-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</a>
+          <Link href="mailto:mohit.k.1618@gmail.com" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition">CONTACT ME</Link>
+          <Link href="/media/MohitEDIResume.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-purple-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</Link>
         </div>
   <div className="flex flex-wrap gap-3 sm:gap-4 mb-8">
-          <a href="https://github.com/mohitcodeshere/" className="text-gray-700 hover:text-black transition" title="GitHub">
+          <Link href="https://github.com/mohitcodeshere/" className="text-gray-700 hover:text-black transition" title="GitHub">
             <FaGithub size={32} />
-          </a>
-          <a href="https://www.linkedin.com/in/mohit-kmr/" className="text-gray-700 hover:text-blue-700 transition" title="LinkedIn">
+          </Link>
+          <Link href="https://www.linkedin.com/in/mohit-kmr/" className="text-gray-700 hover:text-blue-700 transition" title="LinkedIn">
             <FaLinkedin size={32} />
-          </a>
-          <a href="#" className="text-gray-700 hover:text-black transition" title="Email">
+          </Link>
+          <Link href="#" className="text-gray-700 hover:text-black transition" title="Email">
             <FaEnvelope size={32} />
-          </a>
-          <a href="#" className="text-gray-700 hover:text-black transition" title="Calendar">
+          </Link>
+          <Link href="#" className="text-gray-700 hover:text-black transition" title="Calendar">
             <FaCalendarAlt size={32} />
-          </a>
-          <a href="#" className="text-gray-700 hover:text-[#FF371A] transition" title="PDF">
+          </Link>
+          <Link href="#" className="text-gray-700 hover:text-[#FF371A] transition" title="PDF">
             <FaFilePdf size={32} />
-          </a>
+          </Link>
         </div>
-  <p className="text-lg sm:text-xl mt-8 mb-2">Hi there! I'm Mohit, CTO @MoroEsports</p>
+  <p className="text-lg sm:text-xl mt-8 mb-2">Hi there! I&apos;m Mohit, CTO @MoroEsports</p>
   <p className="text-base sm:text-lg text-gray-700 mb-4">I am a Software Engineer focused on Artificial Intelligence, Machine Learning, Scalable Applications, and technology that moves humanity forward.</p>
   <div className="mb-4 w-full">
           <span className="font-bold text-base sm:text-lg">🥇 moroesports.com</span>
