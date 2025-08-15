@@ -23,7 +23,7 @@ export default function Projects() {
         {/* Project Card 2 */}
         <div className="bg-white rounded-lg shadow p-6 flex-1 flex flex-col">
           <div className="h-32 bg-gray-100 rounded mb-4 flex items-center justify-center text-3xl font-bold">🅿️</div>
-          <h2 className="text-xl font-semibold mb-2">Plural - The world's first p2p hiring marketplace</h2>
+          <h2 className="text-xl font-semibold mb-2">Plural - The world&apos;s first p2p hiring marketplace</h2>
           <p className="text-gray-600 mb-2">Mar 2020</p>
           <p className="text-gray-700 mb-4">Plural is a pioneering peer-to-peer job marketplace that connects job seekers with opportunities, focusing on environmental-friendly projects and keeping users informed about news, publications, and events.</p>
           <div className="flex flex-wrap gap-2 mb-4">

@@ -1,6 +1,7 @@
 import { FaGithub, FaLinkedin, FaEnvelope, FaCalendarAlt, FaFilePdf } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import Image from "next/image";
+import Link from "next/link";
 export default function About() {
   return (
   <section className="flex flex-col md:flex-row items-center md:items-start gap-6 md:gap-10 px-4 sm:px-6 lg:px-8 w-full">
@@ -16,7 +17,7 @@ export default function About() {
         />
       </div>
     <div className="flex-1 w-full">
-      <a href="/" className="text-3xl sm:text-5xl font-extrabold mb-2 text-black text-black-700 transition block break-words">Mohit Kumar</a>
+  <Link href="/" className="text-3xl sm:text-5xl font-extrabold mb-2 text-black text-black-700 transition block break-words">Mohit Kumar</Link>
         <div className="flex flex-wrap items-center gap-2 text-gray-600 mb-2">
           <span className="text-base sm:text-lg">Co-Founder/CTO</span>
           <a href="https://www.moroesports.com" className="text-base sm:text-lg hover:text-blue-600 font-small" target="_blank" rel="noopener">@MoroEsports</a>
@@ -52,7 +53,7 @@ export default function About() {
             <FaFilePdf size={32} />
           </a>
         </div>
-  <p className="text-lg sm:text-xl mt-8 mb-2">Hi there! I'm Mohit, CTO @MoroEsports</p>
+  <p className="text-lg sm:text-xl mt-8 mb-2">Hi there! I&apos;m Mohit, CTO @MoroEsports</p>
   <p className="text-base sm:text-lg text-gray-700 mb-4">I am a Software Engineer focused on Artificial Intelligence, Machine Learning, Scalable Applications, and technology that moves humanity forward.</p>
   <div className="mb-4 w-full">
           <span className="font-bold text-base sm:text-lg">🥇 moroesports.com</span>
