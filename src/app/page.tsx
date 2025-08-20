@@ -39,7 +39,7 @@ export default function About() {
         </div>
   <div className="flex flex-wrap gap-4 sm:gap-6 mb-6">
           <Link href="mailto:mohit.k.1618@gmail.com" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-blue-800 transition">CONTACT ME</Link>
-          <Link href="/media/MohitEDIResume.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-purple-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</Link>
+          <Link href="/media/MohitResume_Gaming.pdf" className="bg-black text-white px-6 py-3 rounded font-bold text-lg shadow hover:bg-purple-800 transition" target="_blank" rel="noopener noreferrer">VIEW RESUME</Link>
         </div>
   <div className="flex flex-wrap gap-3 sm:gap-4 mb-8">
           <Link href="https://github.com/mohitcodeshere/" className="text-gray-700 hover:text-black transition" title="GitHub" target="_blank" rel="noopener">
@@ -54,7 +54,7 @@ export default function About() {
           <Link href="https://calendly.com/mohit-kumar" className="text-gray-700 hover:text-green-600 transition" title="Schedule a meeting" target="_blank" rel="noopener">
             <FaCalendarAlt size={32} />
           </Link>
-          <Link href="/media/MohitEDIResume.pdf" className="text-gray-700 hover:text-[#FF371A] transition" title="View Resume" target="_blank" rel="noopener">
+          <Link href="/media/MohitResume_Gaming.pdf" className="text-gray-700 hover:text-[#FF371A] transition" title="View Resume" target="_blank" rel="noopener">
             <FaFilePdf size={32} />
           </Link>
         </div>
