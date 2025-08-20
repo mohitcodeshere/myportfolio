@@ -1,10 +1,10 @@
 import { FC } from 'react';
 
 interface AboutProps {
-  // You can add any props you might need
+  showFullBio?: boolean;
 }
 
-const About: FC<AboutProps> = () => {
+const About: FC<AboutProps> = ({ showFullBio = true }) => {
   return (
     <div className="mb-10">
       <h2 className="text-2xl font-bold mb-4">About Me</h2>
@@ -12,13 +12,13 @@ const About: FC<AboutProps> = () => {
       <div className="mb-6">
         <h3 className="text-xl font-semibold mb-2">My Journey</h3>
         <p className="text-gray-700 mb-4">
-          I'm a software engineer and entrepreneur with a passion for creating technology that makes a meaningful impact.
-          My career spans over 8 years, during which I've developed expertise in EDI implementations, AI applications,
+          I&apos;m a software engineer and entrepreneur with a passion for creating technology that makes a meaningful impact.
+          My career spans over 8 years, during which I&apos;ve developed expertise in EDI implementations, AI applications,
           and building scalable software solutions.
         </p>
         <p className="text-gray-700 mb-4">
           In 2019, I co-founded MoroEsports, a gaming startup that achieved profitability within just 11 months.
-          As the CTO, I've led our technical strategy and built innovative solutions that have helped us stand out
+          As the CTO, I&apos;ve led our technical strategy and built innovative solutions that have helped us stand out
           in a competitive market.
         </p>
       </div>
@@ -50,7 +50,7 @@ const About: FC<AboutProps> = () => {
       <div>
         <h3 className="text-xl font-semibold mb-2">Interests</h3>
         <p className="text-gray-700">
-          When I'm not coding, you can find me exploring new technologies, hiking in the beautiful mountains of Himachal Pradesh,
+          When I&apos;m not coding, you can find me exploring new technologies, hiking in the beautiful mountains of Himachal Pradesh,
           or strategizing the next big move for MoroEsports.
         </p>
       </div>

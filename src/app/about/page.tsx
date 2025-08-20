@@ -78,13 +78,13 @@ export default function About() {
           <div className="mb-6">
             <h3 className="text-xl font-semibold mb-2">My Journey</h3>
             <p className="text-gray-700 mb-4">
-              I'm a software engineer and entrepreneur with a passion for creating technology that makes a meaningful impact.
-              My career spans over 8 years, during which I've developed expertise in EDI implementations, AI applications,
+              I&apos;m a software engineer and entrepreneur with a passion for creating technology that makes a meaningful impact.
+              My career spans over 8 years, during which I&apos;ve developed expertise in EDI implementations, AI applications,
               and building scalable software solutions.
             </p>
             <p className="text-gray-700 mb-4">
               In 2019, I co-founded MoroEsports, a gaming startup that achieved profitability within just 11 months.
-              As the CTO, I've led our technical strategy and built innovative solutions that have helped us stand out
+              As the CTO, I&apos;ve led our technical strategy and built innovative solutions that have helped us stand out
               in a competitive market.
             </p>
           </div>
@@ -92,7 +92,7 @@ export default function About() {
           <div className="mb-6">
             <h3 className="text-xl font-semibold mb-2">Gaming & Esports</h3>
             <p className="text-gray-700 mb-4">
-              As the co-founder of MoroEsports, I've been deeply involved in the gaming industry since 2019. We've built a thriving
+              As the co-founder of MoroEsports, I&apos;ve been deeply involved in the gaming industry since 2019. We&apos;ve built a thriving
               community of gamers, launched competitive teams across multiple titles, and created custom tech solutions for esports tournaments.
             </p>
             <p className="text-gray-700 mb-4">
@@ -137,7 +137,7 @@ export default function About() {
           <div>
             <h3 className="text-xl font-semibold mb-2">Interests</h3>
             <p className="text-gray-700">
-              When I'm not coding, you can find me exploring new technologies, hiking in the beautiful mountains of Himachal Pradesh,
+              When I&apos;m not coding, you can find me exploring new technologies, hiking in the beautiful mountains of Himachal Pradesh,
               or strategizing the next big move for MoroEsports.
             </p>
           </div>
