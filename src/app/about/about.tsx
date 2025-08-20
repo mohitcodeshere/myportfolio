@@ -16,11 +16,13 @@ const About: FC<AboutProps> = ({ showFullBio = true }) => {
           My career spans over 8 years, during which I&apos;ve developed expertise in EDI implementations, AI applications,
           and building scalable software solutions.
         </p>
-        <p className="text-gray-700 mb-4">
-          In 2019, I co-founded MoroEsports, a gaming startup that achieved profitability within just 11 months.
-          As the CTO, I&apos;ve led our technical strategy and built innovative solutions that have helped us stand out
-          in a competitive market.
-        </p>
+        {showFullBio && (
+          <p className="text-gray-700 mb-4">
+            In 2019, I co-founded MoroEsports, a gaming startup that achieved profitability within just 11 months.
+            As the CTO, I&apos;ve led our technical strategy and built innovative solutions that have helped us stand out
+            in a competitive market.
+          </p>
+        )}
       </div>
       
       <div className="mb-6">

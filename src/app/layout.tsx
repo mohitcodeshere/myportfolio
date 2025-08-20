@@ -25,7 +25,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-          <html lang="en">
+          <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
             <body className="bg-gray-50 min-h-screen">
                 <header className="border-b bg-white shadow-sm">
                   <nav className="max-w-6xl mx-auto flex items-center justify-between py-6 px-8">
