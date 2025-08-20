@@ -5,6 +5,27 @@ export default function Projects() {
     <section>
    {/* <Link href="/" className="text-4xl font-bold mb-6 hover:text-blue-700 transition">portfolio</Link> */}
       <h1 className="text-4xl font-bold mb-6">PROJECTS</h1>
+      <div className="flex flex-col md:flex-row gap-8 mb-8">
+        {/* Gaming Project */}
+        <div className="bg-white rounded-lg shadow p-6 flex-1 flex flex-col">
+          <div className="h-32 bg-gray-100 rounded mb-4 flex items-center justify-center text-3xl font-bold">🎮</div>
+          <h2 className="text-xl font-semibold mb-2">MoroEsports Tournament Platform</h2>
+          <p className="text-gray-600 mb-2">Aug 2023</p>
+          <p className="text-gray-700 mb-4">A comprehensive tournament management system for esports competitions. Features include player registration, match scheduling, real-time scoring, statistics tracking, and automated bracketing for various game formats.</p>
+          <div className="flex flex-wrap gap-2 mb-4">
+            <span className="bg-gray-100 px-2 py-1 rounded text-xs">Esports</span>
+            <span className="bg-gray-100 px-2 py-1 rounded text-xs">Gaming</span>
+            <span className="bg-gray-100 px-2 py-1 rounded text-xs">Tournament Management</span>
+            <span className="bg-gray-100 px-2 py-1 rounded text-xs">React</span>
+            <span className="bg-gray-100 px-2 py-1 rounded text-xs">Node.js</span>
+          </div>
+          <div className="flex gap-2 mt-auto">
+            <Link href="https://tournaments.moroesports.com" className="bg-black text-white px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Demo</Link>
+            <Link href="https://github.com/mohitcodeshere/moro-tournaments" className="border border-black px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Source Code</Link>
+          </div>
+        </div>
+      </div>
+      
       <div className="flex flex-col md:flex-row gap-8">
         {/* Project Card 1 */}
         <div className="bg-white rounded-lg shadow p-6 flex-1 flex flex-col">
@@ -18,8 +39,8 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">AI-Assisted Development</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <Link href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</Link>
-            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
+            <Link href="https://looselemons.com" className="bg-black text-white px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Demo</Link>
+            <Link href="https://github.com/mohitcodeshere/loose-lemon" className="border border-black px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Source Code</Link>
           </div>
         </div>
         {/* Project Card 2 */}
@@ -34,8 +55,8 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">Web</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <Link href="#" className="bg-black text-white px-3 py-1 rounded text-sm">Demo</Link>
-            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
+            <Link href="https://plural.work" className="bg-black text-white px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Demo</Link>
+            <Link href="https://github.com/mohitcodeshere/plural" className="border border-black px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Source Code</Link>
           </div>
         </div>
         {/* Project Card 3 */}
@@ -50,7 +71,7 @@ export default function Projects() {
             <span className="bg-gray-100 px-2 py-1 rounded text-xs">Backend</span>
           </div>
           <div className="flex gap-2 mt-auto">
-            <Link href="#" className="border border-black px-3 py-1 rounded text-sm">Source Code</Link>
+            <Link href="https://github.com/mohitcodeshere/apple-auth" className="border border-black px-3 py-1 rounded text-sm" target="_blank" rel="noopener">Source Code</Link>
           </div>
         </div>
       </div>
