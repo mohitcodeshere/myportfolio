@@ -63,7 +63,7 @@ export default function About() {
             <Link href="https://calendly.com/mohit-kumar" className="text-gray-700 hover:text-green-600 transition" title="Schedule a meeting" target="_blank" rel="noopener">
               <FaCalendarAlt size={32} />
             </Link>
-            <Link href="/media/MohitEDIResume.pdf" className="text-gray-700 hover:text-[#FF371A] transition" title="View Resume" target="_blank" rel="noopener">
+            <Link href="/media/MohitResume_Gaming.pdf" className="text-gray-700 hover:text-[#FF371A] transition" title="View Resume" target="_blank" rel="noopener">
               <FaFilePdf size={32} />
             </Link>
           </div>
